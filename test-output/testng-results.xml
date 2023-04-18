@@ -2,15 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-16T18:20:10 IST" name="Default suite" finished-at="2023-04-16T18:20:15 IST" duration-ms="5563">
+  <suite started-at="2023-04-19T00:23:48 IST" name="Default suite" finished-at="2023-04-19T00:24:30 IST" duration-ms="42068">
     <groups>
     </groups>
-    <test started-at="2023-04-16T18:20:10 IST" name="Default test" finished-at="2023-04-16T18:20:15 IST" duration-ms="5563">
+    <test started-at="2023-04-19T00:23:48 IST" name="Default test" finished-at="2023-04-19T00:24:30 IST" duration-ms="42068">
       <class name="amz.AmzTestClass">
-        <test-method signature="openBrowser()[pri:0, instance:amz.AmzTestClass@48f278eb]" started-at="2023-04-16T18:20:10 IST" name="openBrowser" finished-at="2023-04-16T18:20:15 IST" duration-ms="5527" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:amz.AmzTestClass@659499f1]" started-at="2023-04-19T00:23:48 IST" name="openBrowser" finished-at="2023-04-19T00:24:00 IST" duration-ms="11182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginAmz()[pri:0, instance:amz.AmzTestClass@659499f1]" started-at="2023-04-19T00:24:00 IST" name="loginAmz" finished-at="2023-04-19T00:24:22 IST" duration-ms="22508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAmz -->
+        <test-method signature="mainTestNameVerification()[pri:0, instance:amz.AmzTestClass@659499f1]" started-at="2023-04-19T00:24:22 IST" name="mainTestNameVerification" finished-at="2023-04-19T00:24:24 IST" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTestNameVerification -->
+        <test-method is-config="true" signature="amzSignOut()[pri:0, instance:amz.AmzTestClass@659499f1]" started-at="2023-04-19T00:24:24 IST" name="amzSignOut" finished-at="2023-04-19T00:24:30 IST" duration-ms="5976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzSignOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amz.AmzTestClass@659499f1]" started-at="2023-04-19T00:24:30 IST" name="closeBrowser" finished-at="2023-04-19T00:24:30 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- amz.AmzTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
