@@ -66,6 +66,7 @@ public class AmzTestClass extends BaseClass
 	
 	@AfterClass
 	public void closeBrowser() {
+	        System.out.println("Jai Shree Ram");
 		driver.quit();
 	}
 	
