@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-16T18:20:10 IST" name="Default suite" finished-at="2023-04-16T18:20:15 IST" duration-ms="5563">
+    <groups>
+    </groups>
+    <test started-at="2023-04-16T18:20:10 IST" name="Default test" finished-at="2023-04-16T18:20:15 IST" duration-ms="5563">
+      <class name="amz.AmzTestClass">
+        <test-method signature="openBrowser()[pri:0, instance:amz.AmzTestClass@48f278eb]" started-at="2023-04-16T18:20:10 IST" name="openBrowser" finished-at="2023-04-16T18:20:15 IST" duration-ms="5527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- amz.AmzTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
